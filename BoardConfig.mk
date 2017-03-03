@@ -16,7 +16,7 @@
 
 include device/lge/b1w-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := cyanogenmod_d838_defconfig
+TARGET_KERNEL_CONFIG := lineageos_d838_defconfig
 
 TARGET_OTA_ASSERT_DEVICE := d838,b1w,galbi,f350
 
