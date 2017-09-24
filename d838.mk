@@ -1,6 +1,5 @@
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/aosp/common.mk)
-
+include vendor/aosp/common.mk
 # Inherit device configuration
 $(call inherit-product, device/lge/d838/d838.mk)
 
