@@ -20,11 +20,6 @@ $(call inherit-product, device/lge/b1w-common/b1w.mk)
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# RIL
-PRODUCT_PACKAGES += \
-    librmnetctl
-
-
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensor_def_d838.conf:system/etc/sensor_def_variable.conf
